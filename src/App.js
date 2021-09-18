@@ -3,6 +3,7 @@ import { useState } from "react";
 
 export default function App() {
   const [results, setResults] = useState([]);
+  const [yt, setYt] = useState("Nothing");
   const topics = ["WebDevelopment", "DSAlgo", "StandupComedy"];
   const recommendations = {
     WebDevelopment: [
@@ -56,6 +57,7 @@ export default function App() {
 
   function giveSuggestions(topic) {
     let suggestions = recommendations[topic];
+    setYt(topic);
     setResults(suggestions);
   }
 
@@ -74,6 +76,17 @@ export default function App() {
             </button>
           );
         })}
+
+        <span
+          style={{
+            float: "right",
+            backgroundColor: "#A5B4FC",
+            padding: "1rem",
+            borderRadius: "0.5rem"
+          }}
+        >
+          {yt}
+        </span>
       </div>
       <hr />
       <div>
