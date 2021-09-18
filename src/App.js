@@ -16,7 +16,7 @@ export default function App() {
         rating: "4/5",
         link: "https://www.youtube.com/c/WebDevSimplified"
       },
-      { name: "Dev Ed", rating: "3/5", link: "https://www.youtube.com/c/DevEd" }
+      { name: "Dev Ed", rating: "4/5", link: "https://www.youtube.com/c/DevEd" }
     ],
     DSAlgo: [
       {
@@ -26,12 +26,12 @@ export default function App() {
       },
       {
         name: "mycodeschool",
-        rating: "4/5",
+        rating: "5/5",
         link: "https://www.youtube.com/c/Pepcoding"
       },
       {
         name: "Pepcoding",
-        rating: "3/5",
+        rating: "5/5",
         link: "https://www.youtube.com/channel/UClEEsT7DkdVO_fkrBw0OTrA"
       }
     ],
@@ -48,7 +48,7 @@ export default function App() {
       },
       {
         name: "Abhishek Upmanyu",
-        rating: "3/5",
+        rating: "4/5",
         link: "https://www.youtube.com/c/AbhishekUpmanyuu"
       }
     ]
@@ -62,7 +62,7 @@ export default function App() {
   return (
     <div className="App">
       <div class="header">
-        <h2>good youtube channels</h2>
+        <h2>youtube recommendations</h2>
         <p>
           Here are some good youtube channels from my experience in each of
           these domains
