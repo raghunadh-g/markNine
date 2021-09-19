@@ -45,6 +45,7 @@ a {
 a:hover {
   background-color: yellow;
   color: green;
+  text-decoration: underline;
 }
 
 table {
